@@ -9,7 +9,7 @@ const Topbar = () => {
     return (
         <div
             className='bg-white text-zinc-950 '>
-            <div className='container mx-auto flex justify-between items-center py-4'>
+            <div className='container  flex justify-between items-center py-4'>
                 {/* Left Section - Call Us */}
                 <div className="text-sm hidden md:flex items-center space-x-4">
 

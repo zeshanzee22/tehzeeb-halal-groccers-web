@@ -24,12 +24,12 @@ const Navbar = () => {
                  
                 {/* CENTER NAVIGATION */}
                 <div className='hidden md:flex flex-1 justify-center space-x-6'>
-                    <Link to='/collections/all?gender=Men' className='text-lg font-medium hover:text-black uppercase  text-gray-700'>Men</Link>
-                    <Link to='/collections/all?gender=Women' className='text-lg font-medium hover:text-black uppercase text-gray-700'>Women</Link>
-                    <Link to='/collections/all?category=Top Wear' className='text-lg font-medium hover:text-black uppercase text-gray-700'>Top Wear</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='text-lg font-medium hover:text-black uppercase text-gray-700'>Bottom Wear</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='text-lg font-medium hover:text-black uppercase text-gray-700'>Bottom Wear</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='text-lg font-medium hover:text-black uppercase text-gray-700'>Bottom Wear</Link>
+                    <Link to='/' className='px-2 text-xl font-medium hover:text-black   text-gray-700'>Home</Link>
+                    <Link to='/collections/all?gender=Women' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Shop</Link>
+                    <Link to='/collections/all?category=Top Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Categories</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>About</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Pages</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Find a Store</Link>
                 </div>
                 {/* RIGHT NAVIGATION */}
                 <div className='flex items-center space-x-4'>
@@ -59,12 +59,12 @@ const Navbar = () => {
                 <div className='p-4'>
                     <h2 className='text-xl font-semibold mb-4'>Menu</h2>
                     <nav className='space-y-4'>
-                        <Link to='/collections/all?gender=Men' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Men</Link>
-                        <Link to='/collections/all?gender=Women' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Women</Link>
-                        <Link to='/collections/all?category=Top Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Top Wear</Link>
-                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Bottom Wear</Link>
-                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Bottom Wear</Link>
-                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Bottom Wear</Link>
+                        <Link to='/collections/all?gender=Men' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Home</Link>
+                        <Link to='/collections/all?gender=Women' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Shop</Link>
+                        <Link to='/collections/all?category=Top Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Categories</Link>
+                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>About</Link>
+                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Pages</Link>
+                        <Link to='/collections/all?category=Bottom Wear' onClick={toggleMobileNavDrawer} className='block text-gray-600 hover:text-black'>Find a Store</Link>
                     </nav>
                 </div>
 
