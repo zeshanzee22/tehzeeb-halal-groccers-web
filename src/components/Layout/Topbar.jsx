@@ -3,7 +3,7 @@ import { RiTwitterXLine } from 'react-icons/ri'
 import { TbBrandMeta } from 'react-icons/tb'
 import { LuPhone } from "react-icons/lu";
 import Marquee from "react-fast-marquee";
-import Logo from '../../assets/logo2.png'
+import Logo from '../../assets/logo1.png'
 
 const Topbar = () => {
     return (
@@ -25,7 +25,7 @@ const Topbar = () => {
                 
                 {/* Logo - Centered */}
                 <div className="absolute top-1 left-1/2 transform -translate-x-1/2">
-                    <img src={Logo} alt="Logo" className="h-15 md:h-22" />
+                    <img src={Logo} alt="Logo" className="h-15 md:h-22 filter invert" />
                 </div>
                 <div className='hidden md:flex items-center space-x-4'>
                     <a href='#' className='hover:text-gray-300'>
