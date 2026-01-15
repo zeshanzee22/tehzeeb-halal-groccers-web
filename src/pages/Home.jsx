@@ -7,7 +7,7 @@ import { Welcome } from "../components/Layout/Welcome"
  
 const Home = () => {
   return (
-    <div>
+    <div className="mx-10">
       
       <Hero />
       <Welcome/>
