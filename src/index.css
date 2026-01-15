@@ -3,7 +3,9 @@
 
 
 @theme {
-  --color-rabbit: #ea2e0e;
+  --color-rabbit: #914215;
+  --color-rabbit-light: #e4671f;
+  --color-rabbit-dark: #472109;
 }
 
 
@@ -12,7 +14,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   margin: auto;
-  --swiper-navigation-color: #ff6347;       /* arrow color */
+  --swiper-navigation-color: #914215;       /* arrow color */
     
 }
  
@@ -21,6 +23,6 @@
 .swiper-button-prev,
 .swiper-button-next {
   background-color: rgba(255, 255, 255, 0.5); /* light transparent bg */
-  color: #ff6347;                             /* arrow color */                            /* full height of swiper container */
+  color: #914215;                             /* arrow color */                            /* full height of swiper container */
                    /* center arrow horizontally */
 }

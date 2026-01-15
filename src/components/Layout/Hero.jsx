@@ -8,16 +8,22 @@ const images = [
   '/src/assets/carousel_2.jpg',
   '/src/assets/carousel_3.jpg',
   '/src/assets/carousel_4.jpg',
+  '/src/assets/carousel_5.jpg',
 ];
 
 
 const Hero = () => {
   return (
-    <section className="relative w-full">
+    <section className="relative w-full mt-10">
       <Swiper
         slidesPerView={3}
-         
         loop={true}
+        autoplay={{
+          delay: 1000,       // 4 seconds per slide
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true, // pause on hover
+        }}
+        speed={1500}          // smooth transition duration
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>

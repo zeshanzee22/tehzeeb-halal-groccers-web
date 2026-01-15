@@ -20,16 +20,16 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='container mx-auto flex items-center justify-between py-4 px-6 mt-10'>
+            <nav className='container mx-auto flex items-center justify-between py-4 px-6'>
                  
                 {/* CENTER NAVIGATION */}
                 <div className='hidden md:flex flex-1 justify-center space-x-6'>
-                    <Link to='/' className='px-2 text-xl font-medium hover:text-black   text-gray-700'>Home</Link>
-                    <Link to='/collections/all?gender=Women' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Shop</Link>
-                    <Link to='/collections/all?category=Top Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Categories</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>About</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Pages</Link>
-                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl font-medium hover:text-black  text-gray-700'>Find a Store</Link>
+                    <Link to='/' className='px-2 text-xl  text-rabbit font-medium hover:text-black  '>Home</Link>
+                    <Link to='/collections/all?gender=Women' className='px-2 text-xl text-rabbit  font-medium hover:text-black '>Shop</Link>
+                    <Link to='/collections/all?category=Top Wear' className='px-2 text-xl text-rabbit  font-medium hover:text-black '>Categories</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl text-rabbit  font-medium hover:text-black '>About</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl text-rabbit  font-medium hover:text-black '>Pages</Link>
+                    <Link to='/collections/all?category=Bottom Wear' className='px-2 text-xl text-rabbit  font-medium hover:text-black '>Find a Store</Link>
                 </div>
                 {/* RIGHT NAVIGATION */}
                 <div className='flex items-center space-x-4'>

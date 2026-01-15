@@ -5,3 +5,38 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/zeshanzee22/tehzeeb-halal-groccers-web.git
 git push -u origin main
+
+
+
+
+
+
+for syncing the fork with original owner repo
+1.git remote -v
+if output: 
+D:\DevHub\ReactRealms\Static-Websites\tehzeeb-halal-groccers-web>git remote -v
+ origin https://github.com/zeshansaid/tehzeeb-halal-groccers-web.git
+(fetch) origin https://github.com/zeshansaid/tehzeeb-halal-groccers-web.git
+ (push) upstream https://github.com/zeshanzee22/tehzeeb-halal-groccers-web.git
+ (fetch) upstream https://github.com/zeshanzee22/tehzeeb-halal-groccers-web.git (push)
+next:
+2.git fetch upstream
+3.git checkout main
+4.git merge upstream/main
+
+This brings:
+Your merged PR
+New features added by the owner
+Latest commits from original repo
+
+5.git push origin main
+
+🔥 Recommended Next Step (Best Practice)
+Create a new branch for new work:
+git checkout -b new-feature
+
+Then:
+
+git add .
+git commit -m "Add new feature"
+git push origin new-feature

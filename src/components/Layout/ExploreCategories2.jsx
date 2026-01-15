@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 
 const ExploreCategories2 = ({ category, setCategory }) => {
     return (
-        <section className="relative w-full mt-10">
+        <section className="relative w-full mt-20">
             <Swiper
                 modules={[Navigation]}
 
